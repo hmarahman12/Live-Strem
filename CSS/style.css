@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: black;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 999 !important;
+    cursor: pointer;
+}
+span.easy-logo {
+    color: #fff;
+    font-size: 25px;
+    font-family: system-ui;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav {
+    display: flex;
+    width: 80%;
+    margin: -8px auto;
+    padding-bottom: 3px;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.onPC {
+    display: flex;
+    align-items: center;
+}
+
+.profile-min {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    margin-top: 12px;
+}
+.menu a {
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    font-size: 20px;
+    margin: 5px;
+}
+.subMenu {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+.logo a {
+    text-decoration: none;
+}
+
+.onPC span {
+    margin: 5px 5px 0px 5px;
+    font-size: 20px;
+    color: #fff;
+}
+span.Logout ,span.balance{
+    font-weight: 700;
+    color: #fff;
+    font-size: 20px;
+    font-family: system-ui;
+}
+img#profilePick {
+    width: 60px;
+    height: 60px;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+/***********one mobile phone menu************/
+i#onMobileMenusideBar {
+    color: #fff;
+    margin-left: 16px;
+    font-size: 15px;
+}
+@media only screen and (max-width:1000px){
+    nav{
+        height: 56px;
+    }
+    .menu{
+        margin-top: 12px;
+    }
+    .subMenu{
+        display: none;
+    }
+    span.easy-logo,span.balance{
+        font-size: 15px;
+    }
+    img#profilePick{
+        width: 45px;
+        height: 45px;
+    }
+    i#onMobileMenusideBar{
+        display: block !important;
+    }
+
+    @media only screen and (max-width:420px){
+        .nav{
+            width: 98%;
+        }
+        .menu{
+            flex-direction: column;
+            align-items: center;
+        }
+        span.easy-logo,span.balance{
+            font-size: 12px;
+        }
+        marquee {
+            font-size: 12px !important;
+            margin-top: 60px !important;
+        }
+    }
+    
+}
+/***********walpayper************/
+img#walpayper {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 105px 0;
+    text-align: center;
+}
+/***********container************/
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+.social-links a img {
+    width: 45px;
+    height: 45px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
